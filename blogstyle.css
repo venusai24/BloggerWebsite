@@ -1,0 +1,55 @@
+
+
+#Heading-1{
+  text-align: center;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 5em;
+}
+
+#Button{
+  background-color: blue;
+  position: absolute;
+  padding: 10px;
+  left:45%;
+  top:100%;
+  border-radius: 20px;
+}
+
+#Button a:link, a:visited{
+  text-decoration: none;
+  color:white;
+}
+
+#Buttontext{
+  color: White;
+}
+
+.blue-div {
+    width: 115px;
+    height: 100vh; /* Adjust the height as needed */
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 115px;
+  background-color: blue;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #000052;
+  color: white;
+}

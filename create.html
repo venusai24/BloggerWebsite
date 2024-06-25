@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blogging Application: Create New Blog</title>
+        <link rel="stylesheet" type="text/css" href="css/blogstyle.css">
+        <link rel="stylesheet" type="text/css" href="css/create.css">
+    </head>
+
+    <body>
+        <div class="blue-div">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/create">Create</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="banner">
+            <input type="file" accept="image/*" id="banner-upload" hidden>
+            <label for="banner-upload" class="banner-upload-btn"><img src="img/upload.png" alt="upload banner"></label>
+        </div>
+        
+        <div class="blog">
+            <textarea type="text" class="title" placeholder="Blog title..."></textarea>
+            <textarea type="text" class="article" placeholder="Start writing here..."></textarea>
+        </div>
+    
+        <div class="blog-options">
+            <button class="publish-btn">publish</button>
+            <input type="file" accept="image/*" id="image-upload" hidden>
+            <label for="image-upload" class="btn grey upload-btn">Upload Image</label>
+        </div>
+
+        <script src = "js/create.js"></script>
+        <script src = "js/firebase.js"></script>
+
+    </body>
+
+</html>    
